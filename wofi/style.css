@@ -1,0 +1,48 @@
+@define-color back1 rgba(21, 24, 54, 0.9);
+@define-color text1 #FFEAD0;
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    border-radius: 0px;
+    text-shadow: none;
+    box-shadow: none;
+    min-height: 0px;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+window {
+    background-color: @back1;
+    color: @text1;
+    border-radius: 15px;
+    border: 1 solid @text1;
+}
+
+#input {
+    background-color: transparent;
+    margin: 5px;
+    margin-bottom: 10px;
+    color: @text1;
+    border-bottom: 1px solid @text1;
+    padding-bottom: 8px;
+}
+
+#outer-box {
+    margin: 5px 15px;
+}
+
+#text {
+    padding: 5px 3px;
+    color: @text1;
+}
+
+#entry:selected {
+    background-color: @text1;
+    border-radius: 8px;
+}
+
+#text:selected {
+    color: @back1;
+}
+

@@ -1,0 +1,39 @@
+/* define colors */
+@define-color back1 rgba(58, 39, 36, 0.6);
+@define-color back2 #E85A50;
+@define-color text1 #FFEAD0;
+/* reset all styles */
+* {
+   border: none;
+   border-radius: 0px;
+   font-size: 13px;
+   min-height: 0px;
+   margin: 0px;
+   padding: 0px;
+   box-shadow: none;
+   text-shadow: none;
+}
+
+window#waybar {
+   background: @back1;
+   color: @text1;
+   font-size: 16px;
+   font-weight: 600;
+}
+
+#workspaces button {
+   background: transparent;
+   color: @text1;
+   padding: 0px 4px;
+   margin: 0px 4px;
+}
+
+#workspaces button:hover {
+   background-color: @back2;
+}
+
+#clock, #battery, #cpu, #memory, #network, #pulseaudio, #tray, #clock {
+   padding: 0px 4px;
+   margin: 0px 4px;
+}
+

@@ -1,0 +1,9 @@
+stylesheet=style.css
+show=drun
+width=750
+height=273
+prompt=search >w<
+term=kitty
+hide_scroll=true
+use_search_box=false # remove magnifier
+no_actions=true
